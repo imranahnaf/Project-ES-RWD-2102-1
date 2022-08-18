@@ -17,12 +17,12 @@ img {
 #back-to-top a {
   width: 60px;
   height: 60px;
-  background: transparent;
+  background: #000;
+  color: white;
   line-height: 60px;
   text-align: center;
-  border: 5px solid #de4644;
+  border: 5px solid white;
   border-radius: 50%;
-  color: #de4644;
   position: fixed;
   right: 30px;
   bottom: 60px;
@@ -31,9 +31,9 @@ img {
   transition: all linear 0.5s;
 }
 #back-to-top a i {
-  font-size: 32px;
+  font-size: 30px;
 }
-#back-to-top aa:hover {
+#back-to-top a:hover {
   background: #de4644;
   color: white;
 }
@@ -53,6 +53,7 @@ img {
   width: 100%;
   height: 60px;
   line-height: 60px;
+  background: rgba(0, 0, 0, 0.5);
 }
 .navbar .navbar-brand img {
   width: 100px;
@@ -86,10 +87,10 @@ img {
   background: url(../images/1.jpg) center / cover no-repeat;
 }
 #banner-bg .item-2 {
-  background: url(../images/1.jpg) no-repeat center / cover;
+  background: url(../images/2.jpg) no-repeat center / cover;
 }
 #banner-bg .item-3 {
-  background: url(../images/1.jpg) no-repeat center / cover;
+  background: url(../images/3.jpeg) no-repeat center / cover;
 }
 #banner-bg .prevarrow {
   position: absolute;
