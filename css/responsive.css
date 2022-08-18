@@ -1,0 +1,463 @@
+/* =====***** extra small device responsive starts *****===== */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  #back-to-top {
+    display: none !important;
+  }
+
+  .prevarrow {
+    display: none !important;
+  }
+  .nextarrow {
+    display: none !important;
+  }
+  /* ===== navar responsive starts ===== */
+  .navbar .navbar-nav {
+    background: rgba(0, 0, 0, 70%) !important;
+    text-align: center !important;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    transition: all linear 0.5s !important;
+    -webkit-transition: all linear 0.5s !important;
+    -moz-transition: all linear 0.5s !important;
+    -ms-transition: all linear 0.5s !important;
+    -o-transition: all linear 0.5s !important;
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: white !important;
+    color: black !important;
+  }
+  /* ===== navar responsive ends ===== */
+  /* ===== banner responsive ends ===== */
+  #banner-bg {
+    height: 550px !important;
+  }
+  #banner-bg .banner-slider .item {
+    height: 550px !important;
+  }
+
+  /* ===== banner responsive ends ===== */
+  /* ===== about responsive starts ===== */
+  #about-bg {
+    margin-top: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-head h4 {
+    text-align: center !important;
+  }
+  #about-bg .item-2 .about-text {
+    padding-top: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:first-of-type {
+    padding-top: 25px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:last-of-type {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-social .icon ul {
+    margin-top: 20px !important;
+  }
+  /* ===== about responsive ends ===== */
+  /* ===== service responsive starts ===== */
+  #service-bg {
+    padding-bottom: 50px !important;
+  }
+  #service-bg .prevarrow {
+    font-size: 30px !important;
+    left: 30% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .nextarrow {
+    font-size: 30px !important;
+    right: 30% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .service-head h4 {
+    text-align: center !important;
+    padding-bottom: 20px !important;
+  }
+  #service-bg .service-slider .item .sub-head h5 {
+    font-size: 18px !important;
+    padding-top: 15px !important;
+    padding-bottom: 16px !important;
+  }
+  /* ===== service responsive ends ===== */
+
+  /* ===== pricing responsive starts ===== */
+  #pricing-bg {
+    margin-top: 50px !important;
+  }
+  #pricing-bg .pricing-head h4 {
+    text-align: center !important;
+  }
+  #pricing-bg .item {
+    margin-bottom: 20px !important;
+  }
+  #pricing-bg .item .box-details {
+    margin-top: 10px !important;
+  }
+  #pricing-bg .item .box-details p:after {
+    display: none !important;
+  }
+  #pricing-bg .item .box-details ul {
+    padding-top: 20px !important;
+  }
+  #pricing-bg .item .box-details ul li {
+    line-height: 30px !important;
+  }
+  #pricing-bg .item .box-footer a {
+    padding: 5px 15px !important;
+    margin-bottom: 15px !important;
+  }
+  /* ===== pricing responsive ends ===== */
+
+  /* ===== footer responsive starts ===== */
+  #footer-bg {
+    margin-top: 45px !important;
+  }
+  #footer-bg form h1 {
+    padding-top: 0px !important;
+    padding-bottom: 20px;
+  }
+  #footer-bg form {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  #copyright-bg {
+    margin-top: 30px !important;
+  }
+  /* ===== footer responsive ends ===== */
+}
+
+/* =====***** extra small device responsive ends *****===== */
+
+/* =====***** small device responsive starts *****===== */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #back-to-top {
+    display: none !important;
+  }
+
+  .prevarrow {
+    display: none !important;
+  }
+  .nextarrow {
+    display: none !important;
+  }
+
+  /* ===== navar responsive starts ===== */
+  .navbar .navbar-nav {
+    background: rgba(0, 0, 0, 70%) !important;
+    text-align: center !important;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    transition: all linear 0.5s !important;
+    -webkit-transition: all linear 0.5s !important;
+    -moz-transition: all linear 0.5s !important;
+    -ms-transition: all linear 0.5s !important;
+    -o-transition: all linear 0.5s !important;
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: white !important;
+    color: black !important;
+  }
+  /* ===== navar responsive ends ===== */
+  /* ===== banner responsive ends ===== */
+  #banner-bg {
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+  }
+  #banner-bg .banner-content .item-3 {
+    text-align: center !important;
+    top: 0px !important;
+    right: 50px !important;
+    padding-top: 170px !important;
+  }
+  #banner-bg .banner-content .item-3 p {
+    font-size: 22px !important;
+  }
+  #banner-bg .banner-content .item-3 h3 {
+    font-size: 48px !important;
+  }
+  #banner-bg .banner-content .item-3 h2 {
+    font-size: 32px !important;
+  }
+  #banner-bg .banner-content .item-3 a {
+    padding: 10px 15px !important;
+  }
+  /* ===== banner responsive ends ===== */
+  /* ===== about responsive starts ===== */
+  #about-bg {
+    padding-top: 70px !important;
+  }
+  #about-bg .item-2 .about-text .about-head h4 {
+    text-align: center !important;
+  }
+  #about-bg .item-2 .about-text {
+    padding-top: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:first-of-type {
+    padding-top: 25px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:last-of-type {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-social .icon ul {
+    margin-top: 20px !important;
+  }
+  /* ===== about responsive ends ===== */
+  /* ===== service responsive starts ===== */
+  #service-bg {
+    padding-bottom: 70px !important;
+  }
+  #service-bg .prevarrow {
+    font-size: 30px !important;
+    left: 40% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .nextarrow {
+    font-size: 30px !important;
+    right: 40% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .service-head h4 {
+    text-align: center !important;
+    padding-bottom: 20px !important;
+  }
+  #service-bg .service-slider .item .sub-head h5 {
+    font-size: 18px !important;
+    padding-top: 15px !important;
+    padding-bottom: 16px !important;
+  }
+  /* ===== service responsive ends ===== */
+
+  /* ===== pricing responsive starts ===== */
+  #pricing-bg {
+    margin-top: 50px !important;
+  }
+  #pricing-bg .pricing-head h4 {
+    text-align: center !important;
+  }
+  #pricing-bg .item {
+    margin-bottom: 20px !important;
+  }
+  #pricing-bg .item .box-details {
+    margin-top: 10px !important;
+  }
+  #pricing-bg .item .box-details p:after {
+    display: none !important;
+  }
+  #pricing-bg .item .box-details ul {
+    padding-top: 20px !important;
+  }
+  #pricing-bg .item .box-details ul li {
+    line-height: 30px !important;
+  }
+  #pricing-bg .item .box-footer a {
+    padding: 5px 15px !important;
+    margin-bottom: 30px !important;
+  }
+  /* ===== pricing responsive ends ===== */
+
+  /* ===== footer responsive starts ===== */
+  #footer-bg {
+    margin-top: 45px !important;
+  }
+  #footer-bg .footer-item .box-head h5 {
+    padding-top: 0px !important;
+    padding-bottom: 30px;
+  }
+  #footer-bg form {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  #footer-bg form .text-btn {
+    width: 100% !important;
+    margin-right: 10px !important;
+  }
+  #footer-bg form .email-btn {
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-top: 15px !important;
+  }
+  #footer-bg form .textarea {
+    margin-top: 15px !important;
+    width: 100% !important;
+    height: 100px !important;
+  }
+  #footer-bg form .submit-btn {
+    right: 10px !important;
+  }
+  #copyright-bg {
+    margin-top: 0px !important;
+  }
+  /* ===== footer responsive ends ===== */
+}
+
+/* =====***** small device responsive ends *****===== */
+
+/* =====***** medium device responsive starts *****===== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* ===== about responsive starts ===== */
+  #about-bg {
+    padding-top: 50px !important;
+  }
+  #about-bg .item-2 .about-text .about-head h4 {
+    text-align: center !important;
+  }
+  #about-bg .item-2 .about-text {
+    padding-top: 20px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:first-of-type {
+    padding-top: 25px !important;
+  }
+  #about-bg .item-2 .about-text .about-details p:last-of-type {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+  #about-bg .item-2 .about-text .about-social .icon ul {
+    margin-top: 20px !important;
+  }
+  /* ===== about responsive ends ===== */
+  /* ===== service responsive starts ===== */
+  #service-bg {
+    padding-bottom: 70px !important;
+  }
+  #service-bg .prevarrow {
+    font-size: 30px !important;
+    left: 40% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .nextarrow {
+    font-size: 30px !important;
+    right: 40% !important;
+    bottom: -25px !important;
+  }
+  #service-bg .service-head h4 {
+    text-align: center !important;
+    padding-bottom: 20px !important;
+  }
+  #service-bg .service-slider .item .sub-head h5 {
+    font-size: 18px !important;
+    padding-top: 15px !important;
+    padding-bottom: 16px !important;
+  }
+  /* ===== service responsive ends ===== */
+  /* ===== portfoli responsive starts ===== */
+  .portfolio-bg .portfolio-img {
+    order: -1 !important;
+  }
+  .portfolio-bg .filter-menu {
+    order: -2 !important;
+  }
+  #portfolio-bg .filter-menu .sub-head h5 {
+    text-align: center !important;
+  }
+  #portfolio-bg .filter-menu ul {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    margin-right: 0 !important;
+    flex-direction: row !important;
+  }
+  #portfolio-bg .filter-menu ul li button {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    padding: 25px 50px !important;
+    margin-bottom: 10px !important;
+    margin-right: 30px !important;
+  }
+  #portfolio-bg .item .overlay .text a i {
+    margin-top: 80px !important;
+  }
+  #portfolio-bg .item .overlay .text p {
+    padding-top: 70px !important;
+  }
+  #portfolio-bg .item .overlay .text p:last-of-type {
+    padding-top: 10px !important;
+  }
+  #portfolio-bg .portfolio-footer {
+    text-align: center !important;
+  }
+  #portfolio-bg .portfolio-footer a {
+    margin-top: 40px !important;
+  }
+  /* ===== portfoli responsive ends ===== */
+
+  /* ===== pricing responsive starts ===== */
+  #pricing-bg {
+    margin-top: 50px !important;
+  }
+  #pricing-bg .pricing-head h4 {
+    text-align: center !important;
+  }
+  #pricing-bg .item {
+    margin-bottom: 20px !important;
+  }
+  #pricing-bg .item .box-details {
+    margin-top: 10px !important;
+  }
+  #pricing-bg .item .box-details p:after {
+    display: none !important;
+  }
+  #pricing-bg .item .box-details ul {
+    padding-top: 20px !important;
+  }
+  #pricing-bg .item .box-details ul li {
+    line-height: 30px !important;
+  }
+  #pricing-bg .item .box-footer a {
+    padding: 5px 15px !important;
+    margin-bottom: 30px !important;
+  }
+  /* ===== pricing responsive ends ===== */
+
+  /* ===== footer responsive starts ===== */
+  #footer-bg {
+    margin-top: 45px !important;
+  }
+  #footer-bg .footer-item .box-head h5 {
+    padding-bottom: 15px !important;
+  }
+  #footer-bg form {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  #footer-bg form .text-btn {
+    width: 100% !important;
+    margin-right: 10px !important;
+  }
+  #footer-bg form .email-btn {
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-top: 15px !important;
+  }
+  #footer-bg form .textarea {
+    margin-top: 15px !important;
+    width: 100% !important;
+    height: 100px !important;
+  }
+  #footer-bg form .submit-btn {
+    right: 10px !important;
+  }
+  #copyright-bg {
+    margin-top: 0px !important;
+  }
+  /* ===== footer responsive ends ===== */
+}
+
+/* =====***** medium device responsive ends *****===== */
+
+/* =====***** portfolio lg device responsive starts *****===== */
+
+@media (min-width: 1350px) {
+  #portfolio-bg .filter-menu ul {
+    width: 250px !important;
+  }
+}
+
+/* =====***** portfolio lg device responsive ends *****===== */
